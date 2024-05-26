@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的日常生活</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 1em 0;
+        }
+        nav a {
+            margin: 0 1em;
+            text-decoration: none;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2em auto;
+            padding: 0 1em;
+        }
+        .section {
+            margin-bottom: 2em;
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>歡迎來到我的個人網站</h1>
+    </header>
+    <nav>
+        <a href="#home">首頁</a>
+        <a href="#about">關於我</a>
+        <a href="#daily-life">日常生活</a>
+        <a href="#gallery">相冊</a>
+        <a href="#contact">聯絡我</a>
+    </nav>
+    <div class="container">
+        <section id="home" class="section">
+            <h2>首頁</h2>
+            <p>歡迎來到我的個人網站，這裡展示了我的日常生活點滴。</p>
+        </section>
+        <section id="about" class="section">
+            <h2>關於我</h2>
+            <p>我是一個熱愛生活的人，喜歡記錄和分享我的日常點滴。</p>
+        </section>
+        <section id="daily-life" class="section">
+            <h2>日常生活</h2>
+            <h3>飲食</h3>
+            <p>這裡是我最近的一些飲食分享，附上照片和簡單食譜。</p>
+            <h3>運動</h3>
+            <p>這裡是我的運動計劃和一些健身心得。</p>
+            <h3>讀書</h3>
+            <p>這裡是我最近讀過的一些書籍和讀後感。</p>
+            <h3>旅行</h3>
+            <p>這裡是我的旅行記錄和照片分享。</p>
+        </section>
+        <section id="gallery" class="section">
+            <h2>相冊</h2>
+            <p>這裡是我的日常照片畫廊。</p>
+        </section>
+        <section id="contact" class="section">
+            <h2>聯絡我</h2>
+            <p>你可以通過以下方式聯絡我：</p>
+            <ul>
+                <li>電子郵件: example@example.com</li>
+                <li>社交媒體: <a href="#">Facebook</a>, <a href="#">Instagram</a></li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 我的個人網站</p>
+    </footer>
+</body>
+</html>
